@@ -1,11 +1,11 @@
 /*
 
 ** Objective: 
-** This test is performed with two Drone
+** This test is performed with two Drones
 ** AP Drone & Client0
-** AP Drone: Once Gided mode is active, AP Drone will go to the IDEL loacation 
+** AP Drone: Once in Guided mode is active, AP Drone will go to the IDEL location 
    and look 
-   for predefined objects. Once boject/s detected It will send the data to 
+   for predefined objects. Once object/s detected, it will send the data to 
    client0 (Asyn.)
 ** Client0: Once Gided mode active, client0 drone will go to a IDEL location 
    and wait for messages from the AP Drone. Based on the received message, 
@@ -255,4 +255,5 @@ void callAPDrone(){
     landDrone(); // Land if no color detected
   }*/
 }
+
 
